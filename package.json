@@ -1,0 +1,27 @@
+{
+  "name": "exchange-monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stainful/exchange-monitor.git"
+  },
+  "author": "Vladimir Luss <stainful@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stainful/exchange-monitor/issues"
+  },
+  "homepage": "https://github.com/stainful/exchange-monitor#readme",
+  "dependencies": {
+    "crc-32": "^1.1.1",
+    "crypto-js": "^3.1.9-1",
+    "lodash": "^4.17.4",
+    "poloniex-orderbook": "^3.2.0",
+    "redis": "^2.8.0",
+    "ws": "^3.3.2"
+  }
+}

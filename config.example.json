@@ -1,0 +1,24 @@
+{
+  "exchanges": [
+    {
+      "uid": "bitfinex",
+      "redisUrl": "redis://localhost",
+      "prefix": "bitfinex"
+    },
+    {
+      "uid": "xbtce",
+      "redisUrl": "redis://localhost",
+      "prefix": "xbtce",
+      "params": {
+        "apiId": "API_ID",
+        "apiKey": "API_KEY",
+        "apiSecret" : "API_SECRET"
+      }
+    },
+    {
+      "uid": "poloniex",
+      "redisUrl": "redis://localhost",
+      "prefix": "poloniex"
+    }
+  ]
+}
